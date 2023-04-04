@@ -23,13 +23,13 @@ Setup Instructions
     
     run the springboot main application from the project `src/main/java/com/insuremyteam/insuranceplatform/InsuranceplatformApplication.java
     
- Domain Models
+Domain Models
 
-The following domain models were created for the application:
+       The following domain models were created for the application:
     
-create database tables from file create-database-tables.sql
+     create database tables from file create-database-tables.sql
 
- 1.`Client`: Represents a client with properties such as name, date of birth, address, and contact information.
+     1.`Client`: Represents a client with properties such as name, date of birth, address, and contact information.
      2.`InsurancePolicy`:Represents an insurance policy with properties like policy number, type, coverage amount, premium, start date, and end date. Each policy                                should be associated with a client.
      3.`Claim`: Represents an insurance claim with properties like claim number, description, claim date, and claim status. Each claim should be associated with an                    insurance policy.
      
